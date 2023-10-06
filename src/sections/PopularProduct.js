@@ -10,8 +10,7 @@ const PopularProducts = () => {
           Our <span className="text-coral-red"> Popular </span> Products
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
-          Experience top-notch quality and style with our sought-after
-          selections. Discover a world of comfort, design, and value
+        Explore a realm of sought-after choices that deliver exceptional quality and style. Uncover a universe of comfort, design, and value.
         </p>
       </div>
 
