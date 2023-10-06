@@ -135,7 +135,7 @@ import {
       title: "Get in touch",
       links: [
         { name: "customer@zlators.com", link: "mailto:customer@zlators.com" },
-        { name: "+92554862354", link: "tel:+92554862354" },
+        { name: "+000000000", link: "tel:+000000000" },
       ],
     },
   ];
