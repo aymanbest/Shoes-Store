@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
 import SignInSignUpModal from "./SignInSignUp";
+import './nav.css';
 
 const Nav = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -84,12 +85,12 @@ const Nav = () => {
           <>
             <div className="hidden lg:flex space-x-4 items-center">
               <button
-                className={`text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded ${
+                className={`btn-3 ${
                   showSignIn ? "" : "bg-red-500" // Conditionally set the background color
-                }`}
+                } custom-button`} // Add custom-button class
                 onClick={openModal}
               >
-                {showSignIn ? "Sign in" : "X"} {/* Toggle Sign In or X text */}
+                <span>{showSignIn ? "Sign in" : "X"}</span> {/* Toggle Sign In or X text */}
               </button>
             </div>
           </>
